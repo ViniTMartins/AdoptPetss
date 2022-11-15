@@ -39,6 +39,9 @@ a{
 a:hover{
     color: rgb(255, 255, 255);
 }
+.BtnAdotar{
+    margin-left: 0px;
+}
 
 #foto{
     width: 50px;
@@ -70,6 +73,30 @@ a:hover{
     font-size: 20px;
 }
 #principal h2{
+    color: rgb(255, 255, 0);
+    font-size: 52px;
+}
+
+#principalPet{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#principalPet > img{
+    max-width: 700px;
+    max-height: 600px;
+    border-radius: 10%;
+}
+#principalPet div{
+    width: 575px;
+}
+
+#principalPet p{
+    margin-top: 1rem;
+    color: rgb(255, 255, 0);
+    font-size: 20px;
+}
+#principalPet h2{
     color: rgb(255, 255, 0);
     font-size: 52px;
 }
@@ -172,7 +199,7 @@ a:hover{
 }
 
 @media (max-width: 768px){
-    header>nav,header ul, #principal, #Adotanaca{
+    header>nav,header ul, #principal, #Adotanaca, #principalPet{
         flex-direction: column;
     }
 
@@ -187,6 +214,13 @@ a:hover{
         text-align: center;
     }
     #principal > img{
+        margin-bottom: 2rem;
+    }
+    
+    #principalPet{
+        text-align: center;
+    }
+    #principalPet > img{
         margin-bottom: 2rem;
     }
     
