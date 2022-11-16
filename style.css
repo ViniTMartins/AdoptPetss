@@ -147,9 +147,25 @@ a:hover{
     color: rgb(255, 255, 255);
 }
 
+#Doar{
+    margin-top: 40px;
+    display: inline-block;
+    background-color: rgb(255, 136, 229);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 2px  solid;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+#Doar:hover{
+    background-color: rgb(245, 194, 234);
+    color: rgb(255, 255, 255);
+}
+
 #Adotar{
     margin-top: 40px;
-    margin-left: 0px;
+    margin-left: 4rem;
     display: inline-block;
     background-color: rgb(255, 255, 0);
     padding: 1.5rem;
