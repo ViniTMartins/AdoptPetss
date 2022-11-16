@@ -215,6 +215,10 @@ a:hover{
     }
     #principal > img{
         margin-bottom: 2rem;
+        width: 390px
+    }
+    #principal div{
+        width: 390px;
     }
     
     #principalPet{
@@ -222,6 +226,10 @@ a:hover{
     }
     #principalPet > img{
         margin-bottom: 2rem;
+        width: 390px;
+    }
+    #principalPet div{
+        width: 390px;
     }
     
 
@@ -230,5 +238,21 @@ a:hover{
     }
     #Adotanaca > img{
         margin-bottom: 2rem;
+        width: 390px;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    #Adotanaca div{
+        width: 390px;
+    }
+
+    #Adocao{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    header{
+        height: 200px;
     }
 }
